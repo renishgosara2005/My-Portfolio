@@ -1,0 +1,132 @@
+/* 720px */
+/* 360 */
+
+@media only screen and (max-width: 1100px) {
+  .about {
+    grid-template-columns: repeat(1, 2fr);
+    display: grid;
+  }
+  .about-text {
+    padding: 0 8%;
+  }
+  .contact-info {
+    padding-left: 10px;
+  }
+  .navbar a {
+    font-size: 20px;
+  }
+  .home-img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .contact-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-info {
+    width: 100%;
+    height: 420px;
+  }
+  .contact-details {
+    width: 100%;
+    height: auto !important;
+  }
+  .border-c {
+    margin-bottom: 3px;
+  }
+  .navbar {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills-wrap{
+    display: flex;
+    flex-direction: column;
+  }
+  .technical-wraapper{
+    width: 100%;
+  }
+  .professional-wrap{
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .home-sci a {
+    margin: 10px;
+  }
+  .technical-bars {
+    width: 90%;
+  }
+  .contact-detail-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-detail-name {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-detail-email {
+    width: 100%;
+  }
+  #phone {
+    width: 81%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-content h3 span {
+    font-size: 24px;
+  }
+  .home-content h3 {
+    font-size: 24px;
+  }
+  .home-content h3:nth-of-type(2) {
+    margin-bottom: 16px;
+  }
+  .about-img {
+    margin-top: 0%;
+  }
+  .sub-title {
+    font-size: 40px;
+    padding-bottom: 35px;
+  }
+  .services-list {
+    margin-top: 20px;
+  }
+  .container1 {
+    margin-bottom: 60px;
+  }
+  .about-text h2 {
+    margin-bottom: 25px;
+  }
+  #phone {
+    width: 70%;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .home-content p {
+    text-align: center;
+  }.home-wrap{
+    margin-top:60px;
+  }
+  .professional-wrap{
+    display: flex;
+    justify-content: center;
+  }
+  .circle-wrap{
+    gap: 78px;
+  }
+  .home-content h1 {
+    font-size: 40px;
+  }
+}
