@@ -77,6 +77,9 @@
   #phone {
     width: 81%;
   }
+  #message{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
