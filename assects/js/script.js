@@ -1,62 +1,10 @@
 var typed = new Typed(".text", {
-  strings: ["Web Developer", "Fronted Developer"],
+  strings: ["Web Developer", "Fronted Developer" , "Python Developer", "Fronted Web Developer" ],
   typedSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
   loop: true,
 });
-
-// document
-//   .getElementById('contact-wrapper')
-//   .addEventListener('submit', function (event) {
-//     event.preventDefault(); // Prevent the form from submitting the default way
-
-//     var name = document.getElementById('name').value.trim();
-//     var email = document.getElementById('email').value.trim();
-//     var phone = document.getElementById('phone').value.trim();
-//     var message = document.getElementById('message').value.trim();
-
-//     // Basic form validation
-//     if (!validateName(name)) {
-//       displayMessage("Please enter a valid name.", "red");
-//       return;
-//     }
-//     if (!validateEmail(email)) {
-//       displayMessage("Please enter a valid email address.", "red");
-//       return;
-//     }
-//     if (!validatePhone(phone)) {
-//       displayMessage("Please enter a valid phone number.", "red");
-//       return;
-//     }
-//     if (message === "") {
-//       displayMessage("Please enter your message.", "red");
-//       return;
-//     }
-
-//     // Display a success message
-//     displayMessage(
-//       "Thank you for your message. We will get back to you shortly.",
-//       "green"
-//     );
-
-//     // Optionally, you can reset the form
-//     document.getElementById('contact-wrapper').reset();
-//   });
-
-// function validateName(name) {
-//   return name.length > 0;
-// }
-
-// function validateEmail(email) {
-//   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-//   return emailPattern.test(email);
-// }
-
-// function validatePhone(phone) {
-//   var phonePattern = /^\+?[0-9\s\-]+$/;
-//   return phonePattern.test(phone);
-// }
 
 let circularprogress = document.querySelector(".circular-progress"),
   progressValue = document.querySelector(".progress-value");
