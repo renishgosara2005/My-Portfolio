@@ -1,5 +1,10 @@
 var typed = new Typed(".text", {
-  strings: ["Web Developer", "Fronted Developer" , "Python Developer", "Fronted Web Developer" ],
+  strings: [
+    "Web Developer",
+    "Fronted Developer",
+    "Python Developer",
+    "Fronted Web Developer",
+  ],
   typedSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
@@ -90,8 +95,22 @@ let progress2 = setInterval(() => {
   console.log("progressStartValue2");
 }, speed);
 
-
 function getUrl() {
-  
- const color = console.log(window.location.href); 
+  const color = console.log(window.location.href);
+}
+
+function sendEmail() {
+  Email.send({
+    SecureToken: " c930c422-6746-41e5-b34e-53924315185f",
+    // Host: "smtp.elasticemail.com",
+    // Username: "renishgosara2005@gmail.com",
+    // Password: "07926DD383BED21753D0BC08B99027DAFF57",
+    To: "renishgosara2005@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: "New Contact Form Enquiry",
+    Body: "Name:" +document.getElementById("name").value
+    +"<br> Email: " + document.getElementById("email").value
+    +"<br> Email: " + document.getElementById("phone").value
+    +"<br> Email: " + document.getElementById("message").value
+  }).then((message) => alert("Message sent succesfully.."));
 }

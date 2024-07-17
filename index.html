@@ -352,7 +352,7 @@
                         </div>
                         <div class="border-c"></div>
                         <div class="border-c"></div>
-                        <div class="contact-details">
+                        <form onsubmit="sendEmail(); reset(); return false;" class="contact-details">
                             <div class="contact-detail-info">
                                 <div class="contact-detail-name">
                                     <div class="f-width">
@@ -388,7 +388,7 @@
                             <div class="contact-btn">
                                 <button type="submit" id="contact-btn-info">Send Message</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>  
             </div>
@@ -396,6 +396,7 @@
 
 
     <!-- Js Link -->
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="/assects/js/script.js"></script>
 </body>
 </html>
